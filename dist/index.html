@@ -84,7 +84,7 @@
 
   <main class="pt-5 max-lg-5">
     <div class="container-fluid mt-5">
-      <div class="card mb-4 wow fadeIn">
+      <div class="card mb-4 wow zoomIn">
         <div class="card-body d-sm-flex justify-content-between">
           <h4 class="mb-2 mb-sm-0 pt-1">
             <a href="#">Home Page</a>
@@ -99,21 +99,21 @@
           </form>
         </div>
       </div>
-      <div class="row wow fadeIn">
+      <div class="row">
         <div class="col-md-9 mb-4">
-          <div class="card">
+          <div class="card wow slideInLeft">
             <div class="card-body">
               <canvas id="myChart"></canvas>
             </div>
           </div>
         </div>
         <div class="col-md-3 mb-4">
-          <div class="card mb-2">
+          <div class="card mb-2 wow slideInRight">
             <div class="card-body">
               <canvas id="pieChart"></canvas>
             </div>
           </div>
-          <div class="card mt-5">
+          <div class="card mt-5 wow slideInRight">
             <div class="card-body">
               <div class="list-group list-group-flush">
                 <a href="#" class="list-group-item list-group-item-action waves-effect">
@@ -143,8 +143,8 @@
           </div>
         </div>
       </div>
-      <div class="row wow fadeIn">
-        <div class="col-md-6 mb-4">
+      <div class="row">
+        <div class="col-md-6 mb-4 wow rotateIn">
           <div class="card">
             <div class="card-body">
               <table class="table table-hover">
@@ -180,7 +180,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 mb-4">
+        <div class="col-md-6 mb-4 wow rotateIn">
           <div class="card">
             <div class="card-body">
               <table class="table table-hover">
@@ -218,7 +218,7 @@
         </div>
       </div>
       <div class="row wow fadeIn">
-        <div class="col-lg-4 col-md-12 mb-4">
+        <div class="col-lg-4 col-md-12 mb-4 wow hinge">
           <div class="card">
             <div class="card-header">Line Chart</div>
             <div class="card-body">
@@ -226,7 +226,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="col-lg-4 col-md-6 mb-4 wow bounceIn">
           <div class="card">
             <div class="card-header">Radar-chart</div>
             <div class="card-body">
@@ -234,7 +234,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 mb-4">
+        <div class="col-lg-4 col-md-6 mb-4 wow jello">
           <div class="card">
             <div class="card-header">Doughnut-chart</div>
             <div class="card-body">
@@ -245,6 +245,28 @@
       </div>
     </div>
   </main>
+  <footer class="page-footer text-center font-small primary-color-dark darken-2 mt-4 wow fadeIn">
+    <div class="pt-4">
+      <a href="#" class="btn btn-outline-white">Bootstrap
+        <i class="fa fa-download ml-2"></i>
+      </a>
+      <a href="#" class="btn btn-outline-white">News
+        <i class="fa fa-graduation-cap ml-2"></i>
+      </a>
+    </div>
+    <hr class="my-4">
+    <div class="pb-4">
+      <a><i class="fa fa-facebook mr-3"></i></a>
+      <a><i class="fa fa-twitter mr-3"></i></a>
+      <a><i class="fa fa-youtube mr-3"></i></a>
+      <a><i class="fa fa-google-plus mr-3"></i></a>
+      <a><i class="fa fa-dribbble mr-3"></i></a>
+      <a><i class="fa fa-pinterest mr-3"></i></a>
+      <a><i class="fa fa-github mr-3"></i></a>
+      <a><i class="fa fa-codepen mr-3"></i></a>
+    </div>
+    <div class="footer-copyright py-3">MSV</div>
+  </footer>
 
 
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
